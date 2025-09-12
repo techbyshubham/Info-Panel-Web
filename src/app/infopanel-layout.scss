@@ -1,0 +1,104 @@
+* {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.purchase-order-card {
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon-section {
+  min-height: 100%;
+  padding: 2rem 1rem;
+  margin-top: -105px;
+}
+
+.icon-img {
+  max-width: 70px;
+  height: auto;
+}
+
+.detail-item {
+  font-size: 16px;
+  margin-bottom: 0.25rem;
+}
+
+.detail-item .label {
+  font-weight: 600;
+  color: #1e293b;
+  margin-right: 0.25rem;
+}
+
+.detail-item .value {
+  color: #000000;
+}
+.text-muted-data {
+  // Font color No/not set: red #E44454
+  color: #E44454;
+}
+
+h5,
+h6 {
+  color: #1e293b;
+}
+
+.text-danger {
+  font-weight: 600;
+}
+
+.title-label{
+/*Row 1 Title Label size 16 px weight 600 color blue #4595D5// */
+  font-size: 16px;
+  font-weight: 600;
+  color: #4595D5;
+}
+.title-data-green{
+  /*Row 1 Title ID: green #008000, bold// */
+  color: #008000;
+  font-weight: bold;
+}
+.bold-text{
+    font-weight: bold;
+
+}
+.Row2-label{
+/*Row 1 Title Label size 16 px weight 600 color blue #4595D5// */
+  font-size: 16px;
+  font-weight: 500;
+  color: #4595D5;
+}
+.data{
+  /*Font color text: *black #000000// */
+  color: #000000;
+}
+.detail-item-label{
+  color: #4595D5;
+  margin-right: 0.25rem;
+}
+.event-item {
+  margin-bottom: 4px; /* adjust spacing as you like */
+}
+.actions-col {
+  padding-right: 0 !important;
+}
+.actions-col .no-links{
+  // Font color no link: grey #425166 font weight 400
+  color: #425166;
+  font-weight: 400;
+}
+
+.actions-col .link-item::before{
+  // Font color link: blue #134183, underlined, bullet: >
+  content: "> ";
+}
+.actions-col .link-item {
+  display: block;
+  color: #134183;
+  text-decoration: underline;
+  margin-bottom: 4px;
+}
+.actions-col p,
+.actions-col a {
+  margin: 0 0 4px 0; /* compact spacing */
+  font-size: 16px;
+}

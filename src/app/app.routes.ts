@@ -3,7 +3,7 @@ import { Routes } from '@angular/router';
 export const routes: Routes = [
     {
         path: 'infopanel-layout',
-        loadComponent: () => import('./infopanel-layout').then(m => m.PurchaseOrderTableComponent)    
+        loadComponent: () => import('./project/infopanel-layout/infopanel-layout').then(m => m.PurchaseOrderTableComponent)    
     },
     {
         path: '',

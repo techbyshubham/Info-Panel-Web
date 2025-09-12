@@ -1,77 +1,85 @@
 <div class="card purchase-order-card">
-  <div class="row g-0">
-     <div class="col-md-1 d-flex icon-section">
-      <img src="../assets/img/Purchase-order.svg" alt="Purchase Order Icon" class="icon-img" />
-    </div>
-     <div class="col-md-11">
-     
-      <div class="row g-0">
-            <div class="col-md-4 mt-3">
-        <span class="title-label mb-1">Purchase Order (POC No.): </span> <span class="title-data-green">N12901991</span><br/>
+  <div class="card-body">
+    <div class="row">
+      <div class="col-md-1 d-flex justify-content-center icon-section">
+        <img src="../assets/img/Purchase-order.svg" alt="Purchase Order Icon" class="icon-img" />
+      </div>
+      <div class="col-md-11">
+
+        <div class="row">
+          <!-- purchase -->
+          <div class="col-md-4 mt-1">
+            <div class="col-md-12">
+              <span class="title-label">Purchase Order (POC No.): </span> <span
+                class="title-data-green">N12901991</span><br />
             </div>
-            <div class="col-md-4 mt-3">
+            <div class="col-md-12 Row2-label">
+              <span class="">Supplier:</span><span class="data"> NINGBO XIANFENG IMP & EXP CO LTD</span>
             </div>
-                        <div class="col-md-4 mt-3 bold-text">
-<div class="mb-3"><span>Kimball:99820 EPP SNUDDIE | ETA:</span>
-           <span class="text-muted-data bold-text">(not set)</span>  
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">Kimball:</span> <span class="value">99820</span>
+            </div>
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">Origin:</span> <span class="value">NINGBO</span>
+            </div>
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">Product name:</span> <span class="value">EPP SNUDDIE</span>
+            </div>
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">Booking Status:</span> <span class="text-muted-data">(not set)</span>
+            </div>
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">Cartons/Set:</span> <span class="value">03</span>
+            </div>
+            <div class="col-md-12 detail-item">
+              <span class="detail-item-label">ETA (Estimated Time of Arrival):</span> <span class="text-muted-data">(not set)</span>
+            </div>
           </div>
-                        </div>
-      </div>
-    <!-- Left Icon Section -->
-   
- <div class="row g-0">
-    <!-- Right Content Section -->
-    <div class="col-md-5 mt-3">
-      <!-- Header -->
-      <div class="mb-3">
-        <span class="Row2-label mb-0">Supplier:</span><span class="data"> NINGBO XIANFENG IMP & EXP CO LTD</span>
-      </div>
-    
-      <!-- Details Grid -->
-      <div class="row mb-4">
-        <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">Kimball:</span> <span class="value">99820</span>
-        </div>
-        <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">Origin:</span> <span class="value">NINGBO</span>
-        </div>
-        <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">Product name:</span> <span class="value">EPP SNUDDIE</span>
-        </div>
-         
-        <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">Booking Status:</span> <span class="text-muted-data">(not set)</span>
-        </div>
-       <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">Cartons/Set:</span> <span class="value">03</span>
-        </div>
-        <div class="col-sm-4 col-lg-6 detail-item">
-          <span class="detail-item-label">ETA (Estimated Time of Arrival):</span> <span class="text-muted-data">(not set)</span>
+
+          <!-- Events -->
+          <div class="col-md-4 mt-1">
+            <div class="col-md-12">
+              <h6 class="fw-semibold" style="visibility: hidden;">hidden</h6>
+            </div>
+            <div class="col-md-12">
+              <h6 class="fw-semibold">Events</h6>
+            </div>
+            <div class="col-md-12 event-item"><span class="detail-item-label"> Required Delivery Date:</span><span
+                class="value">29 Jun 2025</span></div>
+            <div class="col-md-12 event-item"><span class="detail-item-label">Required Handover Date:</span><span
+                class="value"> 30 Jun 2025</span></div>
+            <div class="col-md-12 event-item"><span class="detail-item-label">Actual Handover Date:</span><span
+                class="text-muted-data">(not set)</span></div>
+            <div class="col-md-12 event-item"><span class="detail-item-label">Goods Booked Date:</span><span
+                class="text-muted-data">(not set)</span></div>
+          </div>
+
+          <!-- action -->
+          <div class="col-md-4 mt-1 actions-col">
+            <div class=" bold-text"><span>Kimball:99820 EPP SNUDDIE | ETA:</span>
+              <span class="text-muted-data bold-text">(not set)</span>
+            </div>
+            <div class="col-md-12">
+              <h6 class="fw-semibold">Actions</h6>
+            </div>
+            <div class="col-md-12">
+              <p class="no-links mb-1">No Shipments available for this POC</p>
+            </div>
+            <div class="col-md-12">
+              <p class="no-links mb-1">No Supplier Booking available</p>
+            </div>
+            <div class="col-md-12">
+              <p class="no-links mb-1">No Packing List available</p>
+            </div>
+            <div class="col-md-12">
+              <span class="mb-1 anchor-tag-arrow">> </span> <a class="link-item mb-1">Manage Associated Documents</a>
+            </div>
+            <div class="col-md-12">
+              <span class="mb-1 anchor-tag-arrow">> </span> <a class="link-item mb-1">Create NCR (Non-Conformance Report)</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-
-      <!-- Events & Actions -->
-      <div class="col-md-3 mt-3">
-        <!-- Events -->
-          <h6 class="fw-semibold">Events</h6>
-           <div class="event-item"><span class="detail-item-label"> Required Delivery Date:</span><span class="value">29 Jun 2025</span></div>
-          <div class="event-item"><span class="detail-item-label">Required Handover Date:</span><span class="value"> 30 Jun 2025</span></div>
-          <div class="event-item"><span class="detail-item-label">Actual Handover Date:</span><span class="text-muted-data">(not set)</span></div>
-          <div class="event-item"><span class="detail-item-label">Goods Booked Date:</span><span class="text-muted-data">(not set)</span></div>
-      </div>
-
-        <!-- Actions -->
-        <div class="col-md-4 mt-3 actions-col">
-          <h6 class="fw-semibold">Actions</h6>
-          
-          <p class="no-links mb-1">No Shipments available for this POC</p>
-          <p class="no-links mb-1">No Supplier Booking available</p>
-          <p class="no-links mb-1">No Packing List available</p>
-          <a href="#" class="link-item mb-1">Manage Associated Documents</a>
-          <a href="#" class="link-item mb-1">Create NCR (Non-Conformance Report)</a>
-        </div>
-     </div>
-     </div>
   </div>
 </div>
